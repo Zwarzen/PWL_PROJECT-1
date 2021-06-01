@@ -20,3 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/data', 'ChartsController@index');
+Route::get('/data', 'FormController@index');
+Route::get('/data', 'TableController@index');
+

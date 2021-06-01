@@ -25,4 +25,11 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function index()
+    {
+        $data = Book::all();
+        return view('charts.index')->with("charts", $data);
+    }
+
 }
