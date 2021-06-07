@@ -449,25 +449,8 @@
                                                 <td class="center">
                                                     1
                                                 </td>
-                                                
                                             </tr>
-                                                <tr>
-                                                <th>
-                                                    ID
-                                                </th>
-                                                <th>
-                                                    Nama Sparepart
-                                                </th>
-                                                <th>
-                                                    Harga
-                                                </th>
-                                                <th>
-                                                    Stok
-                                                </th>
-                                                
-                                            </tr>
-                                            </tr>
-                                        </tfoot>
+                                        </tbody>
                                     </table>
                                 </div>
                             </div>
@@ -493,5 +476,4 @@
         <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
         <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
         <script src="scripts/common.js" type="text/javascript"></script>
-      
     </body>
