@@ -13,8 +13,8 @@ class CreatePasswordResetsTable extends Migration
      */
     public function up()
     {
-        Schema::create('contacts', function (Blueprint $table) {
-            $table->bigIncrement('id');
+        Schema::create('pegawai', function (Blueprint $table) {
+            $table->bigIncrement('id_pegawai');
             $table->timestamp('created_at')->nullable();
         });
     }
@@ -26,6 +26,6 @@ class CreatePasswordResetsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contacts');
+        Schema::dropIfExists('pegawai');
     }
 }
